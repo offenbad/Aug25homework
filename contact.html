@@ -35,7 +35,7 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container" id="mine">
     
-      <div id="header--index">
+      <div id="header__contact">
       <div class="row">
         <div class="columns" style="margin-top: 10%">
           <h3>Dayna O.</h3>
@@ -43,52 +43,41 @@
         </div>
       </div>
 
-     <div class="row navigation--index">
-          <a class="button" id="button" href="contact.html">contact</a>
+     <div class="row navigation">
+          <a class="button" id="button" href="index.html">main</a>
       
           <a class="button" id="button" href="https://www.facebook.com/dayna.offenbacher">facebook</a>
 
           <a class="button" id="button" href="https://instagram.com/offenbad/">instagram</a>
       </div>
       </div>
-     
 
-
+    <form>
+      <div class="row" id="form">
+        <div class="six columns">
+        <label for="exampleEmailInput">Your email</label>
+        <input class="u-full-width" type="email" placeholder="you@whatever.com" id="exampleEmailInput">
+      </div>
+      <div class="six columns">
+        <label for="exampleRecipientInput">Reason for contacting</label>
+        <select class="u-full-width" id="exampleRecipientInput">
+        <option value="Option 1">Bookings</option>
+        <option value="Option 2">Admiration</option>
+        </select>
+      </div>
+      </div>
     
-    <div class="row" id="mine">
-      
-      <div class="four columns photo" id="photo--one">
-        <h6 id="photo__caption">photo by Paulo Goes</h6>
-      </div>
-
-      <div class="four columns photo" id="photo--two">
-        <h6 id="photo__caption">drawing by Igor Gnedo</h6>
-      </div>
-
-      <div class="four columns photo" id="photo--three">
-        <h6 id="photo__caption">photo by Smell von Zombie</h6>
-      </div>
-
-    </div>
-
-      <div class="row" id="mine">
-
-        <div class="four columns photo" id="photo--four">
-          <h6 id="photo__caption">drawing by Bil Donovan</h6>
-        </div>
-
-        <div class="four columns photo" id="photo--five">
-          <h6 id="photo__caption">photo by Marcio Amaral</h6>
-        </div>
-
-        <div class="four columns photo" id="photo--six">
-          <h6 id="photo__caption">photo by Wei Yuli</h6>
-        </div>
-
-      </div>
+      <label for="exampleMessage">Message</label>
+      <textarea class="u-full-width" placeholder="Hi Dayna …" id="exampleMessage"></textarea>
+      <label class="example-send-yourself-copy">
+      <input type="checkbox">
+      <span class="label-body">Send a copy to yourself</span>
+      </label>
+      <input class="button-primary" type="submit" value="Submit"
+      id="button">
+    </form>
 
 
-   
 </div>
 
 

@@ -1,12 +1,14 @@
 #mine {
   font-family: 'Poiret One', cursive;
   color: #171716;
-  margin-bottom: 3.5rem;
+}
+.navigation--index {
+  margin-bottom: 2rem;
 }
 .photo {
   background-color: black;
   background-size: cover;
-  background-position: center;
+  background-position: top-center;
   box-sizing: border-box;
   height: 48rem;
   position:relative
