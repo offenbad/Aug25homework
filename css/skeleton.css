@@ -2,7 +2,12 @@
   font-family: 'Poiret One', cursive;
   color: #171716;
 }
-.navigation--index {
+#button {
+  color: #EBEBE0;
+  background-color: #171716;
+  border: none;
+}
+.navigation {
   margin-bottom: 2rem;
 }
 .photo {
@@ -43,14 +48,7 @@
   position:absolute; 
   bottom: -2rem;
 }
-#form {
-  margin-top: 10rem;
-}
-#button {
-  color: #EBEBE0;
-  background-color: #171716;
-  border: none;
-}
+
 
 /*
 * Skeleton V2.0.4
